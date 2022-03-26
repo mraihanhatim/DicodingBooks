@@ -26,7 +26,6 @@ function main() {
             xhr.send();
     };
 
-
     const insertBook = (book) => {
         // Membuat instance dari XMLHttpRequest
             const xhr = new XMLHttpRequest();
